@@ -262,7 +262,7 @@ local Properties = {
 	ScrollingFrame = {
 		BackgroundTransparency = 1,
 		ScrollBarThickness = 5,
-		CanvasSize = UDim2.fromScale(0,0),
+		CanvasSize = UDim2.fromScale(3,3),
 		Size = UDim2.fromScale(5,5)
 	},
 	Menu = {
