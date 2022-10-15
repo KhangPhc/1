@@ -263,7 +263,7 @@ local Properties = {
 		BackgroundTransparency = 1,
 		ScrollBarThickness = 5,
 		CanvasSize = UDim2.fromScale(0,0),
-		Size = UDim2.fromScale(2,2)
+		Size = UDim2.fromScale(5,5)
 	},
 	Menu = {
 		Name = "More",
