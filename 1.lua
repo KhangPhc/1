@@ -1,5 +1,5 @@
 repeat wait() until game:IsLoaded()
-local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/KhangPhc/1/main/2.lua"))()
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
 local SettingsLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Suricato006/Scripts-Made-by-me/master/Libraries/SaveSettingsLibrary.lua"))()
 local InputLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Suricato006/Scripts-Made-by-me/master/Libraries/InputFunctions%20Library.lua"))()
 local Player = game.Players.LocalPlayer
