@@ -70,6 +70,11 @@ AutoFarmTab.Toggle({
                                 if EHum.Health == 0 then
                                     break
                                 end
+                                Hrp.CFrame = CFrame.new(EHrp.Position - EHrp.CFrame.LookVector * 3, EHrp.Position)
+                                InputLibrary.CenterMouseClick()
+                                for Number=1, 5 do
+                                    RemoteAttack(Number, EHrp.Position)
+                                end
                             end
                         end
                     end
