@@ -10,8 +10,8 @@ local SettingsTable = SettingsLibrary.LoadSettings(FileName)
 local CrabHub = Material.Load({
 	Title = "CrabHub",
 	Style = 3,
-	SizeX = 500,
-	SizeY = 350,
+	SizeX = 1,
+	SizeY = 3,
 	Theme = "Light",
 })
 
@@ -71,6 +71,8 @@ AutoFarmTab.Toggle({
                                     break
                                 end
                                 Hrp.CFrame = CFrame.new(EHrp.Position - EHrp.CFrame.LookVector * 3, EHrp.Position)
+                                InputLibrary.CenterMouseClick()
+                                for Number=1, 5 do
                                     RemoteAttack(Number, EHrp.Position)
                                 end
                             end
