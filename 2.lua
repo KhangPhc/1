@@ -707,7 +707,7 @@ function Material.Load(Config)
 	local SizeY = Config.SizeY or 500
 	local Theme = Config.Theme or "Light"
 	local Overrides = Config.ColorOverrides or {}
-	local Open = true
+	local Open = false
 
 	Theme = Themes[Theme]
 
