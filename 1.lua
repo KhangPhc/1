@@ -10,7 +10,7 @@ local SettingsTable = SettingsLibrary.LoadSettings(FileName)
 local CrabHub = Material.Load({
 	Title = "CrabHub",
 	Style = 3,
-	SizeX = 1,
+	SizeX = 3,
 	SizeY = 1,
 	Theme = "Light",
 })
